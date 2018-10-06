@@ -13,9 +13,14 @@
     "morgan": "^1.9.1",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.0"
+  },
   "scripts": {
-	"start": "node app.js"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
